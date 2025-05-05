@@ -213,7 +213,16 @@ EOF;
                             document.getElementById(id).value = token;
                         });
                     });
+                } else if( document.getElementById(id)) {
+                     grecaptcha.ready(function() {
+                        grecaptcha.execute(recaptchaClient, {
+                            action: 'CustomContactUsForm'
+                        }).then(function (token) {
+                            document.getElementById(id).value = token;
+                        });
+                    });
                 }
+                setTimeout('alexGetRecaptchaValue("CustomContactUsForm-recaptcha")', 60000);
 
             }
 
