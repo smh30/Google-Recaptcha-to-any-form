@@ -19,7 +19,7 @@
         }
     ],
     "support": {
-      "issues": "https://github.com/AlexStack/Google-Recaptcha-to-any-form/issues"
+      "issues": "https://github.com/smh30/Google-Recaptcha-to-any-form/issues"
     },
     "minimum-stability": "dev",
     "require": {
@@ -27,7 +27,7 @@
       },
       "autoload": {
         "psr-4": {
-          "GoogleRecaptchaToAnyForm\\": "src/AlexStack/GoogleRecaptchaToAnyForm"
+          "GoogleRecaptchaToAnyForm\\": "src/smh30/GoogleRecaptchaToAnyForm"
         }
       },
       "extra": {
